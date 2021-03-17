@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj",
+        "projectName": "LoggingNlog",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\DepositStatusCheckApp\\DepositStatusCheckApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\DepositStatusCheckApp\\DepositStatusCheckApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\DepositStatusCheckApp\\DepositStatusCheckApp.csproj",
+        "projectName": "DepositStatusCheckApp",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\DepositStatusCheckApp\\DepositStatusCheckApp.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\DepositStatusCheckApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.core\\Worldex.core\\Worldex.Core.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.core\\Worldex.core\\Worldex.Core.csproj"
+              },
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\Worldex.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\Worldex.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.7, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj",
+        "projectName": "LoggingNlog",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\Worldex.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\Worldex.Core.csproj",
+        "projectName": "Worldex.Core",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\Worldex.Core.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Binance.Net": {
+              "target": "Package",
+              "version": "[4.0.16, )"
+            },
+            "Bittrex.Net": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "CCXT.NET": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            },
+            "CachingFramework.Redis": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.94.2, )"
+            },
+            "Coinbase": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Coinbase.Pro": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "DigitalRuby.ExchangeSharp": {
+              "target": "Package",
+              "version": "[0.6.0.1, )"
+            },
+            "ExmoApi": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Foundatio": {
+              "target": "Package",
+              "version": "[7.1.1845, )"
+            },
+            "GDAX.Api.ClientLibrary": {
+              "target": "Package",
+              "version": "[1.0.26, )"
+            },
+            "Huobi.Net": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "IpData": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Azure.SignalR": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.5.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "OKExSDKTest": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.513, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\Worldex.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\Worldex.Infrastructure.csproj",
+        "projectName": "Worldex.Infrastructure",
+        "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\Worldex.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JBSPL-0063\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JBSPL-0063\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              },
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\LoggingNlog\\LoggingNlog.csproj"
+              },
+              "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\Worldex.Core.csproj": {
+                "projectPath": "C:\\Users\\JBSPL-0063\\Documents\\Worldex-US\\dotnetapi\\Worldex.Core\\Worldex.Core\\Worldex.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "EPPlus.Core": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
+            "Google.Apis.Urlshortener.v1": {
+              "target": "Package",
+              "version": "[1.38.0.138, )"
+            },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.0-beta2, )"
+            },
+            "LucidOcean.MultiChain": {
+              "target": "Package",
+              "version": "[0.0.0.10, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "OpenIddict": {
+              "target": "Package",
+              "version": "[2.0.0-rc2-final, )"
+            },
+            "OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc2-final, )"
+            },
+            "Plivo": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.10.0, )"
+            },
+            "StructureMap": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.25.1, )"
+            },
+            "libphonenumber-csharp": {
+              "target": "Package",
+              "version": "[8.9.14, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
